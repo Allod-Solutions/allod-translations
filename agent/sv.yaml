@@ -1,0 +1,21 @@
+# Agent-notifikationssträngar på svenska.
+notify_captive_title: "Nätverksinloggning krävs"
+notify_captive_body: "En captive portal har upptäckts. Öppna en webbläsare för att logga in."
+notify_captive_restored_title: "Nätverksåtkomst återställd"
+notify_captive_restored_body: "Captive portal-inloggning lyckades. Säkerhetspolicyn är återaktiverad."
+
+notify_git_push_blocked_title: "Git push blockerad"
+notify_git_push_blocked_body: "Push till {remote} blockerades av säkerhetspolicyn"
+
+notify_subnet_conflict_title: "Subnätkollision - begränsad täckning"
+notify_subnet_conflict_body: "ZTNA-rutten {cidr} överlappar ditt lokala nätverk ({local}).\nEnheter i det subnätet kan bli onåbara."
+
+notify_identity_title: "AllodSWG - Identitetsverifiering krävs"
+notify_identity_body: "Din enhet måste verifiera sin identitet för att komma åt skyddade resurser."
+
+notify_dlp_upload_title: "AllodSWG - Uppladdning blockerad"
+notify_dlp_download_title: "AllodSWG - Nedladdning blockerad"
+notify_dlp_removable_write_title: "AllodSWG - Fil blockerad"
+notify_dlp_transfer_title: "AllodSWG - Överföring blockerad"
+notify_dlp_body_with_host: "{subject} → {host}"
+notify_dlp_body: "{subject}"
