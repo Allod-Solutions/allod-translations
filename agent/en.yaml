@@ -1,0 +1,26 @@
+# Agent desktop notification strings.
+# Keys follow the pattern: notify_<event>[_title|_body].
+# Placeholders use {name} syntax.
+# This file is the canonical English source — other locales override keys here.
+# To contribute a translation, add a new <locale>.yaml file with the same keys.
+
+notify_captive_title: "Network login required"
+notify_captive_body: "A captive portal was detected. Open a browser to complete login."
+notify_captive_restored_title: "Network access restored"
+notify_captive_restored_body: "Captive portal login successful. Security policy re-enabled."
+
+notify_git_push_blocked_title: "Git push blocked"
+notify_git_push_blocked_body: "Push to {remote} was blocked by security policy"
+
+notify_subnet_conflict_title: "Subnet conflict - limited coverage"
+notify_subnet_conflict_body: "ZTNA route {cidr} overlaps with your local network ({local}).\nDevices on that subnet may become unreachable."
+
+notify_identity_title: "AllodSWG - Identity verification required"
+notify_identity_body: "Your device must verify its identity to access protected resources."
+
+notify_dlp_upload_title: "AllodSWG - Upload Blocked"
+notify_dlp_download_title: "AllodSWG - Download Blocked"
+notify_dlp_removable_write_title: "AllodSWG - File Blocked"
+notify_dlp_transfer_title: "AllodSWG - Transfer Blocked"
+notify_dlp_body_with_host: "{subject} → {host}"
+notify_dlp_body: "{subject}"
