@@ -37,4 +37,4 @@ Use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two-lette
 
 The ALLOD agent detects the OS language at runtime and loads the matching locale file. If no translation exists for the detected language, it falls back to English.
 
-The web UI uses the browser's `Accept-Language` header to pick a locale.
+The `web/` strings are used by the allod.solutions marketing site, which picks a locale from the browser's `Accept-Language` header.
