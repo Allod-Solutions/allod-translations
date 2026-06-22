@@ -1,6 +1,6 @@
 # allod-translations
 
-Community translation files for [ALLOD](https://allod.io) - the self-hosted Secure Web Gateway.
+Community translation files for [ALLOD](https://allod.solutions) - the self-hosted Secure Web Gateway.
 
 ## Structure
 
