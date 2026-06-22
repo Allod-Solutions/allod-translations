@@ -1,0 +1,21 @@
+# Notificaciones de escritorio del agente - español.
+notify_captive_title: "Se requiere inicio de sesión en la red"
+notify_captive_body: "Se detectó un portal cautivo. Abra un navegador para completar el inicio de sesión."
+notify_captive_restored_title: "Acceso a la red restaurado"
+notify_captive_restored_body: "Inicio de sesión en el portal cautivo exitoso. Política de seguridad reactivada."
+
+notify_git_push_blocked_title: "Git push bloqueado"
+notify_git_push_blocked_body: "El push a {remote} fue bloqueado por la política de seguridad"
+
+notify_subnet_conflict_title: "Conflicto de subred - cobertura limitada"
+notify_subnet_conflict_body: "La ruta ZTNA {cidr} se superpone con su red local ({local}).\nLos dispositivos en esa subred pueden volverse inaccesibles."
+
+notify_identity_title: "AllodSWG - Se requiere verificación de identidad"
+notify_identity_body: "Su dispositivo debe verificar su identidad para acceder a recursos protegidos."
+
+notify_dlp_upload_title: "AllodSWG - Subida bloqueada"
+notify_dlp_download_title: "AllodSWG - Descarga bloqueada"
+notify_dlp_removable_write_title: "AllodSWG - Archivo bloqueado"
+notify_dlp_transfer_title: "AllodSWG - Transferencia bloqueada"
+notify_dlp_body_with_host: "{subject} → {host}"
+notify_dlp_body: "{subject}"
