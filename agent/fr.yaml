@@ -1,0 +1,21 @@
+# Notifications de bureau de l'agent - français.
+notify_captive_title: "Connexion réseau requise"
+notify_captive_body: "Un portail captif a été détecté. Ouvrez un navigateur pour vous connecter."
+notify_captive_restored_title: "Accès réseau rétabli"
+notify_captive_restored_body: "Connexion au portail captif réussie. La politique de sécurité est réactivée."
+
+notify_git_push_blocked_title: "Push Git bloqué"
+notify_git_push_blocked_body: "Le push vers {remote} a été bloqué par la politique de sécurité"
+
+notify_subnet_conflict_title: "Conflit de sous-réseau - couverture limitée"
+notify_subnet_conflict_body: "La route ZTNA {cidr} chevauche votre réseau local ({local}).\nLes appareils sur ce sous-réseau peuvent devenir inaccessibles."
+
+notify_identity_title: "AllodSWG - Vérification d'identité requise"
+notify_identity_body: "Votre appareil doit vérifier son identité pour accéder aux ressources protégées."
+
+notify_dlp_upload_title: "AllodSWG - Envoi bloqué"
+notify_dlp_download_title: "AllodSWG - Téléchargement bloqué"
+notify_dlp_removable_write_title: "AllodSWG - Fichier bloqué"
+notify_dlp_transfer_title: "AllodSWG - Transfert bloqué"
+notify_dlp_body_with_host: "{subject} → {host}"
+notify_dlp_body: "{subject}"
