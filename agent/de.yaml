@@ -1,0 +1,21 @@
+# Agent-Desktop-Benachrichtigungen - Deutsch.
+notify_captive_title: "Netzwerkanmeldung erforderlich"
+notify_captive_body: "Ein Captive Portal wurde erkannt. Öffnen Sie einen Browser, um sich anzumelden."
+notify_captive_restored_title: "Netzwerkzugang wiederhergestellt"
+notify_captive_restored_body: "Captive-Portal-Anmeldung erfolgreich. Sicherheitsrichtlinie reaktiviert."
+
+notify_git_push_blocked_title: "Git-Push blockiert"
+notify_git_push_blocked_body: "Push zu {remote} wurde durch die Sicherheitsrichtlinie blockiert"
+
+notify_subnet_conflict_title: "Subnetz-Konflikt - eingeschränkte Abdeckung"
+notify_subnet_conflict_body: "ZTNA-Route {cidr} überschneidet sich mit Ihrem lokalen Netzwerk ({local}).\nGeräte in diesem Subnetz können unerreichbar werden."
+
+notify_identity_title: "AllodSWG - Identitätsverifizierung erforderlich"
+notify_identity_body: "Ihr Gerät muss seine Identität verifizieren, um auf geschützte Ressourcen zuzugreifen."
+
+notify_dlp_upload_title: "AllodSWG - Upload blockiert"
+notify_dlp_download_title: "AllodSWG - Download blockiert"
+notify_dlp_removable_write_title: "AllodSWG - Datei blockiert"
+notify_dlp_transfer_title: "AllodSWG - Übertragung blockiert"
+notify_dlp_body_with_host: "{subject} → {host}"
+notify_dlp_body: "{subject}"
